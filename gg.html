@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <title>Нealthy recipes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="proje.js"></script>
+    <link href="projekt.css" rel="stylesheet" type="text/css">
+  
+</head>
+<body>
+
+
+        <div class="header">
+            <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+
+
+
+<div  id="baslangic" class="container-fluid p-5 bg-success text-white text-center ">
+<h1 class="display-3" id="Sayfa">Sağlıklı yemek tarifleri</h1>
+<span> Doğru yoldasınız ! Sağlıklı beslemek  önemli </span>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+       <div class="mm">
+  <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><a class="d3" href="#Sayfa" title="go to Ana Sayfa">Ana Sayfa</a></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><a class="d" href="#KAHVALTI" title="go to KAHVALTI">KAHVALTI</a></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><a class="d1" href="#YEMEK" title="go to YEMEK">ANA YEMEK</a></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link2" href="#"> <a class="d2" href="#icicek" title="go to icicek">İÇİCEK</a></a>
+            </li>
+          </ul>
+        </div>
+      </div> 
+      </nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+
+
+
+      <h2></h2>
+      
+       <button onclick="displayDate()">Saat kaç?</button>
+      <br><br>
+      <span id="zamanGoster"></span>     
+      <hr>
+      <p>Aradın şey ne ?</p>
+
+          <input type="search" id="myInput" onsearch="myFunction()"> <br> <br>
+          <span id="demo"></span>
+
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myInput");
+            document.getElementById("demo").innerHTML = "Şunu arıyorsunuz: " + x.value;
+          }
+          </script>
+
+          <hr>
+            <h2>LifeHack</h2>
+
+            <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+            style="width:300px;height: 150px;padding:15px;" 
+            class="bg-success text-white text-center">
+            LifeHack nedir? </div>
+
+            <br>
+            <span>- Sevdiğiniz ve vücut tarafından iyi emilen şeyleri yiyin</span> <br><br>
+            <span>- Yemek seçiminde içsel duyumlar tarafından yönlendirilmeniz gerekir</span><br><br>
+            <span>- En basit yemek her zaman en iyisidir</span>
+
+          <hr>
+          <span class="p-2 text-center " >Bu sayfada güzel resimler var </span>
+          <br>
+          <iframe src="https://kemalseckin.com/yemek-ve-urun-fotograflari.html" >
+          </iframe>
+            
+            <hr>
+          
+            <p ondblclick="myFunction2()">Bu paragrafa çift tıklayın.</p>
+
+                <p id="demo2"></p>
+
+            <hr>
+
+            <span>METİN YAZ</span>
+
+            <input type="text" size="40" onkeypress="myFunction33(event)">
+
+            <span>"The Unicode value is: "</span>
+            <span id="demo33"></span>
+
+            <hr>
+<!-- 
+
+
+            далтфдлмттттсттстсытафдывтмыиомфлыомфжыломтщвашитмфлвао фвлоатимфэдвптфажлом важмивашмщапэдфвлтмвдатмущэшиваимфвлоим
+ -->
+
+
+
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="##Sayfa">ANA MENU</a>
+                <a href="#KAHVALTI">KAHVALTI</a>
+                <a href="#YEMEK">YEMEK</a>
+                <a href="#icicek">icicek</a>
+              </div>
+
+              <h2>Soldan Menu Bakabilirsin</h2>
+              <span>Bunun için butona tıkla</span>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+              <hr>
+              <span>Bu sayfadaki bir komut bu saati başlatır:</span>
+
+              <span id="demo444"></span>
+
+              <button onclick="clearInterval(myVar)">Stop time</button>
+
+
+              <hr>
+              <span class="p-2 text-center " >Bu sayfada güzel tafifler var </span>
+              <br>
+              <iframe src="https://tvoirecepty.ru/recepty/na-kazhdy-den" >
+              </iframe>
+            
+            <hr>
+
+            <button>BAŞLAT</button>
+
+
+              <div style="background:#98bf21;height:60px;width:200px;position:absolute;">Selam
+              </div>
+      
+                <br><br><br>
+
+
+
+              <hr>
+              <p>Bu paragrafdır</p>
+
+              <ol>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+              </ol>
+
+<button id="btn1">Metin ekle</button>
+<button id="btn2">Liste ekle</button>
+
+
+      <hr class="d-sm-none">
+    </div>
+    
+    
+    <div class="col-sm-8">
+        <div class="row">
+
+           
+            <h4 id="KAHVALTI"> KAHVALTI </h4> 
+            <ol>                                  
+            <li id="ortada">Kabaklı omlet</li>
+            <img src="image/омлетКабачки.jpeg"  style="width: 200px; height:150px;" class="image">
+            <br><br>
+            
+              <span id="sakla">Derin bir kaseye yumurtaları kırın, pürüzsüz olana kadar çırpma teli ile çalkalayın.Kabağı orta rende üzerine rendeleyin ve yumurta kütlesiyle birlikte kaseye ekleyin. Karıştırın, tuz ve karabiber ile tatlandırın, omlet kütlesinin yaklaşık üçte birini tavaya dökün ve tavayı hafifçe yana yatırarak düzeltin. Omlet kütlesi ayarlanana kadar yaklaşık 2-3 dakika orta ateşte pişirin.</span>
+              <br>
+              <button id="hide" class="bg-success text-white text-center ">Sakla</button>
+              <button id="show" class="bg-success text-white text-center ">Göster</button>
+              <br> <br>
+            <li>Muzlu Pankek  </li>
+            <img src="image/овсяноБанановыеПан.jpg"  style="width: 200px; height:150px;"class="image">
+              <br> <br>
+
+
+
+            <span id="sakla2">If you click on the "Hide" button, I will disappear.</span>
+            <br>
+            <button id="hide2" class="bg-success text-white text-center "> Sakla</button>
+            <button id="show2" class="bg-success text-white text-center ">Göster</button>
+              <br><br>
+            <li>Sebzeli omlet</li>
+            <img src="image/омлетПомидоры.jpeg"  style="width: 200px; height:150px;"class="image">
+            <br> <br>
+
+            <span id="sakla3">If you click on the "Hide" button, I will disappear.</span>
+            <br>
+            <button id="hide3" class="bg-success text-white text-center ">Sakla</button>
+            <button id="show3" class="bg-success text-white text-center ">Göster</button>
+
+
+            <br><br>
+            <li>Yumurtali, domatesli tost </li>
+            <img src="image/тостПомидор1.jpeg" style="width: 200px; height:150px;"class="image">
+            <br><br>
+
+            <span id="sakla4">If you click on the "Hide" button, I will disappear.</span>
+            <br>
+            <button id="hide4" class="bg-success text-white text-center ">Sakla</button>
+            <button id="show4" class="bg-success text-white text-center ">Göster</button>
+
+            <br><br>
+            <li>Yulaflı pancake  </li>
+            <img src="image/овсяноБлин2.jpeg" style="width: 200px; height:150px;"class="image">
+            <br><br>
+
+            <span id="sakla5">If you click on the "Hide" button, I will disappear.</span>
+            <br>
+            <button id="hide5" class="bg-success text-white text-center ">Sakla</button>
+            <button id="show5" class="bg-success text-white text-center ">Göster</button>
+
+            <br><br>
+            <li>Chia puding  </li>
+            <img src="image/чиаПудинг.jpeg" style="width: 200px; height:150px;"class="image">
+            <br><br>
+
+            <span id="sakla6">If you click on the "Hide" button, I will disappear.</span>
+            <br>
+            <button id="hide6" class="bg-success text-white text-center ">Sakla</button>
+            <button id="show6" class="bg-success text-white text-center ">Göster</button>
+            </ol>       
+    
+            <br><br><br> <br><br>
+            <h4 id="YEMEK"> ANAYEMEK </h4>
+            <ol id="myList">
+                <li>Ispanaklı spagetti</li>
+                <img src="image/шпинатПастаОвощи.jpeg" style="width: 200px; height:150px;">
+                <br><br>
+                <li>Sebzeli pirinç</li>
+                <img src="image/рисОвощи.jpeg" style="width: 200px; height:150px;">
+                <br><br>
+                <li>Pişmiş sebzeler</li>
+                <img src="image/запеченыеОвощи.jpeg" style="width: 200px; height:150px;">
+                
+            </ol>  
+            <br><br><br> 
+
+            <h4 id="icicek"> İÇİCEK </h4>
+            <ul>
+            <li>Smoothie 1 </li>
+            <img src="image/белыйСмузи.jpeg" style="width: 200px; height:150px;" >
+            <br><br>
+            <li>Smoothie 2</li>
+            <img src="image/смузиЗеленый.jpeg" style="width: 200px; height:150px;">
+            <br><br>
+            <li>Smoothie 3</li>
+            <img src="image/желтыйСмузи.jpeg" style="width: 200px; height:150px;">
+            </ul>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>

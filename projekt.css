@@ -1,0 +1,180 @@
+
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  
+
+
+
+   /* Add a gray background color with some padding */
+   body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+   
+#myDIV {
+  margin: 25px;
+  width: 550px;
+  height: 100px;
+  background: orange;
+  position: relative;
+  font-size: 20px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+ 
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 97.3%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #dd0ac865;
+    width: 0%;
+  }
+
+  .ortada p{
+    text-align: center;
+  }
+  
+
+  .d2{
+    text-decoration: none;
+    color:rgb(153, 158, 158) ;
+  position: relative;
+bottom: -9px;
+left: 40px;
+
+  }
+ 
+  .d1{
+    text-decoration: none;
+    color:rgb(153, 158, 158) ;
+  position: relative;
+bottom: 8px;
+left: 25px;
+
+  }
+  .d{
+    text-decoration: none;
+    color:rgb(153, 158, 158) ;
+  position: relative;
+bottom: 8px;
+left: 5px;
+
+  }
+
+  .d3{
+    text-decoration: none;
+    color:rgb(153, 158, 158) ;
+  position: relative;
+bottom: 8px;
+left: -5px;
+
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 97.3%; /* Full width */
+  }
+
+/* кнопка наверх  */
+
+.ukariGit{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+.ukariGit:hover{
+  background-color: #27ae60;
+}
+
+
+
+
+/* кнопка наверх  */
+
+img {
+  border-radius: 15%;
+} 
+
+/* 
+осилывсвы рррррррррррррррррвилвсывафылжвмоифыжлафыжшгарифыжлаиывжлмоифымиолыоимылимовлыоимолв*/
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+  
